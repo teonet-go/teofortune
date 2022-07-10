@@ -17,15 +17,6 @@ jobs:
         with:
           go-version: 1.18
 
-      # - name: Set private packages
-      #   run: go env -w GOPRIVATE=github.com/teonet-go/teo...
-
-      # - name: Change Github URL in git config
-      #   env:
-      #     USER: ${{ secrets.USER }}
-      #     PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-      #   run: git config --global url."https://$USER:$PERSONAL_TOKEN@github.com".insteadOf "https://github.com"
-
       - name: Build
         run: go build -v ./...
 

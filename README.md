@@ -15,11 +15,12 @@ go run .
 ### Install binary from github
 
 ```bash
-git install https://github.com/teonet-go/teofortune .
+go install github.com/teonet-go/teofortune .
 teofortune
 ```
 
 ### Using docker
+
 ```bash
 docker run ...
 ```
@@ -29,22 +30,24 @@ docker run ...
 ### Use `teofortune` in Teonet cli application
 
 Install Teonet cli application:
+
 ```bash
 go install github.com/teonet-go/teonet ./cmd/teonet
 ```
 
 Run the Teonet cli application:
+
 ```bash
 teonet
 ```
 
 In the Teonet cli application print commands:
+
 ```
 connectto 8agv3IrXQk7INHy5rVlbCxMWVmOOCoQgZBF
 api 8agv3IrXQk7INHy5rVlbCxMWVmOOCoQgZBF
 api 8agv3IrXQk7INHy5rVlbCxMWVmOOCoQgZBF forta
 ```
-
 
 # Licence
 

@@ -15,7 +15,6 @@ jobs:
       NAME: teofortune
       ORG: teonet-go
       USER: ${{ secrets.USER }}
-      PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
       PACKAGES_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
     steps:
     - uses: actions/checkout@v2
@@ -40,7 +39,7 @@ jobs:
     - name: Build the Docker image
       env:
           VERSION: ${{ steps.branch_name.outputs.SOURCE_TAG }}
-      run: docker build --build-arg github_user="$USER" --build-arg github_personal_token="$PERSONAL_TOKEN" --build-arg version="$VERSION"  -t $NAME -f ./.github/Dockerfile .
+      run: docker build --build-arg version="$VERSION"  -t $NAME -f ./.github/Dockerfile .
 
     - name: Publish Docker image to Github Packages
       env:
