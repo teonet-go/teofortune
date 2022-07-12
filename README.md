@@ -1,6 +1,6 @@
 # Teonet fortune microservice
 
-This is simple Teonet micriservice application which return linux fortune messages. The [fortune](https://linux.die.net/man/6/fortune) application should be installed first.
+This is simple [Teonet](https://github.com/teonet-go/teonet) micriservice application which return linux fortune messages. The [fortune](https://linux.die.net/man/6/fortune) application should be installed first.
 
 [![GoDoc](https://godoc.org/github.com/teonet-go/teofortune?status.svg)](https://godoc.org/github.com/teonet-go/teofortune/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/teonet-go/teofortune)](https://goreportcard.com/report/github.com/teonet-go/teofortune)
@@ -53,7 +53,7 @@ teonet
 In the Teonet cli application print commands:
 
 _Change address to your application address which you start before. Or you can use this address, but than you will connect to `teofortune` microservice application running in Teonet cloud. The address prints after you start teonet application in string:_  
-```Teonet address: 8agv3IrXQk7INHy5rVlbCxMWVmOOCoQgZBF```
+`Teonet address: 8agv3IrXQk7INHy5rVlbCxMWVmOOCoQgZBF`
 
 ```
 connectto 8agv3IrXQk7INHy5rVlbCxMWVmOOCoQgZBF
@@ -61,6 +61,6 @@ api 8agv3IrXQk7INHy5rVlbCxMWVmOOCoQgZBF
 api 8agv3IrXQk7INHy5rVlbCxMWVmOOCoQgZBF forta
 ```
 
-# Licence
+## Licence
 
 [BSD](LICENSE)
