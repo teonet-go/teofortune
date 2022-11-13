@@ -10,7 +10,13 @@ github.com/teonet-go/teomon v0.5.14 h1:iYWj2x4oQD7rOp1vu/OMR0dcELEPWhJDcWDx32GvE
 github.com/teonet-go/teomon v0.5.14/go.mod h1:GzmuSJWL+tMiN4HvT1fZoqp/mfN8bX7p5R9bxv8JAhM=
 github.com/teonet-go/teonet v0.5.27 h1:cIphPCtI5joloavQkL2jQprbypNPhJIvD2cfc56LUXs=
 github.com/teonet-go/teonet v0.5.27/go.mod h1:Fb1/qvVDBZMy2Jn3KYnPXBHev5AVnbFiUyp3TJdrS1o=
+github.com/teonet-go/teonet v0.5.40 h1:2lzji9wr4YCQPuTVw/Zd+cMpAjtVJbdUjvFcoS8cEHE=
+github.com/teonet-go/teonet v0.5.40/go.mod h1:CabQqE69HzwNi0IAQQXRovH5r3xMAKAkYkUdwzvqgGg=
 github.com/teonet-go/tru v0.0.9 h1:dOI8TtXEObAo6t1rsizqsDd92yegymTgA7azU/q/2Ow=
 github.com/teonet-go/tru v0.0.9/go.mod h1:kvJezXL4ANDr1WYzwp237IkeaB4FDWNBVe52IMwWIbs=
+github.com/teonet-go/tru v0.0.10 h1:Ev1v1AOiYMylcYzFBrSVSorzaKpRYmYh2uX/tho87ns=
+github.com/teonet-go/tru v0.0.10/go.mod h1:kvJezXL4ANDr1WYzwp237IkeaB4FDWNBVe52IMwWIbs=
 golang.org/x/sys v0.0.0-20220712014510-0a85c31ab51e h1:NHvCuwuS43lGnYhten69ZWqi2QOj/CiDNcKbVqwVoew=
 golang.org/x/sys v0.0.0-20220712014510-0a85c31ab51e/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.2.0 h1:ljd4t30dBnAvMZaQCevtY0xLLD0A+bRZXbgLMLU1F/A=
+golang.org/x/sys v0.2.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
