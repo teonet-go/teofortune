@@ -21,7 +21,7 @@ const (
 	appShort   = "teofortune"
 	appName    = "Teonet micriservice application which return linux fortune"
 	appLong    = ""
-	appVersion = "0.0.5"
+	appVersion = "0.6.0"
 )
 
 var appStartTime = time.Now()
